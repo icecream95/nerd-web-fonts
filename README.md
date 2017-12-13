@@ -1,50 +1,34 @@
-# powerline-web-fonts
+# nerd-web-fonts
 
-[**Powerline** Web Fonts](https://github.com/powerline/fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
+[**Nerd** Web Fonts](https://github.com/ryanoasis/nerd-fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
 
-There are multiple `font-family` to choose from (all Powerline-enabled):
+There ~~are~~ will soon be multiple `font-family` to choose from (all Nerd-enabled):
 
-  * `Anonymous Pro` - [Anonymice
-    Powerline](https://github.com/powerline/fonts/tree/master/AnonymousPro)
   * `DejaVu Sans Mono` -
-    [DejaVu Sans Mono for Powerline](https://github.com/powerline/fonts/tree/master/DejaVuSansMono)
-  * `Hack` - [Hack Webfont](https://github.com/chrissimpkins/Hack)
-  * `Inconsolata` - [Inconsolata for
-    Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata)
-  * `Inconsolata-g` - [Inconsolata-g for
-    Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata-g)
-  * `Iosevka` - [Iosevka Webfont](https://github.com/be5invis/Iosevka)
-  * `Liberation Mono` - [Literation Mono
-    Powerline](https://github.com/powerline/fonts/tree/master/LiberationMono)
-  * `PT Mono` - PT Mono for Powerline
-  * `Source Code Pro` - [Source Code for Powerline](https://github.com/powerline/fonts/tree/master/SourceCodePro)
-  * `Ubuntu Mono` - [Ubuntu Mono derivative
-    Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
+    [DejaVu Sans Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono)
 
-See [preview.html](https://rawgit.com/wernight/powerline-web-fonts/master/preview.html) and [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
+See [preview.html](https://rawgit.com/icecream95/nerd-web-fonts/master/preview.html) and [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 
 ## Usage example
 
 ### Usage example for [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo)
 
   - Options:
-      - font-family: `"Source Code Pro", monospace`
-      - user-css: `https://cdn.rawgit.com/wernight/powerline-web-fonts/4c2fbd9a52a443fbdf00c9eb79e615f1bed3a55c/PowerlineFonts.css`
+      - font-family: `"DejaVu Sans Mono", monospace`
+      - user-css: `TODO`
 
 ### Usage example for [Crosh Window](https://chrome.google.com/webstore/detail/crosh-window/nhbmpbdladcchdhkemlojfjdknjadhmh)
 
   - Start crosh window then press `Ctrl+Shift+J` and paste in the following:
 
 ```js
-term_.prefs_.set('font-family', '"Source Code Pro", monospace');
-term_.prefs_.set('user-css', 'https://cdn.rawgit.com/wernight/powerline-web-fonts/8040cf32c146c7cd4f776c1484d23dc40685c1bc/PowerlineFonts.css');
+term_.prefs_.set('font-family', '"DejaVu Sans Mono", monospace');
+term_.prefs_.set('user-css', 'TODO');
 ```
 
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
 or if you're on pretty much any other OS, you can install those fonts locally or copy them locally
 and it'll work with little to no effort.
-
-Note that the RawGit links require a specific commit SHA-1 because files are cached permanently. Please update your projects to use the `CDN` links, as [overusage of the development URLs (those without `cdn.`), could result in this repo being blacklisted from RawGit](https://github.com/rgrove/rawgit/wiki/Frequently-Asked-Questions).
 
 ## Suggesting a new font
 
@@ -66,3 +50,5 @@ There are various methods, including:
         #!/usr/bin/env fontforge
         Open($1)
         Generate($1:r + ".woff2")`
+
+Thanks to [Wernight's powerline fonts](https://github.com/wernight/powerline-web-fonts) for the base of this project.

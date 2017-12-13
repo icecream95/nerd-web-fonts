@@ -6,14 +6,14 @@
 
 @font-face {
     font-family: "DejaVu Sans Mono";
-    src: local("DejaVu Sans Mono for Powerline"),
+    src: local("DejaVu Sans Mono Nerd enabled"),
          url(fonts/DejaVuSansMono.woff2) format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "DejaVu Sans Mono";
-    src: local("DejaVu Sans Mono for Powerline"),
+    src: local("DejaVu Sans Mono Nerd enabled"),
          url(fonts/DejaVuSansMono-Bold.woff2) format("woff2");
     font-weight: bold;
     font-style: normal;
@@ -27,13 +27,13 @@
 
 @font-face {
     font-family: "Inconsolata";
-    src: local("Inconsolata for Powerline"),
+    src: local("Inconsolata Nerd enabled"),
          url(fonts/Inconsolata.woff2) format("woff2");
 }
 
 @font-face {
     font-family: "Inconsolata-g";
-    src: local("Inconsolata-g for Powerline"),
+    src: local("Inconsolata-g Nerd enabled"),
          url(fonts/Inconsolata-g.woff2) format('woff2');
 }
 
@@ -51,13 +51,13 @@
 
 @font-face {
     font-family: "PT Mono";
-    src: local("PT Mono for Powerline"),
+    src: local("PT Mono Nerd enabled"),
          url(fonts/PTMono.woff2) format("woff2");
 }
 
 @font-face {
     font-family: "Source Code Pro";
-    src: local("Source Code Pro for Powerline"),
+    src: local("Source Code Pro Nerd enabled"),
          local("Sauce Code Powerline"),
          url(fonts/SourceCodePro.woff2) format("woff2");
     font-weight: normal;
@@ -65,7 +65,7 @@
 }
 @font-face {
     font-family: "Source Code Pro";
-    src: local("Source Code Pro for Powerline"),
+    src: local("Source Code Pro Nerd enabled"),
          local("Sauce Code Powerline"),
          url(fonts/SourceCodePro-Bold.woff2) format("woff2");
     font-weight: bold;
@@ -74,6 +74,6 @@
 
 @font-face {
     font-family: "Ubuntu Mono";
-    src: local("Ubuntu Mono derivative Powerline"),
+    src: local("Ubuntu Mono Nerd enabled"),
          url(fonts/UbuntuMono.woff2) format("woff2");
 }

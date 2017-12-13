@@ -2,10 +2,12 @@
 
 [**Nerd** Web Fonts](https://github.com/ryanoasis/nerd-fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
 
-There ~~are~~ will soon be multiple `font-family` to choose from (all Nerd-enabled):
+There are multiple `font-family` to choose from (all Nerd-enabled):
 
-  * `DejaVu Sans Mono` -
+  * `DejaVu Sans Mono, DejaVu Sans Mono Bold` -
     [DejaVu Sans Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono)
+  * `Ubuntu Mono` -
+    [Ubuntu Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono)
 
 See [preview.html](https://rawgit.com/icecream95/nerd-web-fonts/master/preview.html) and [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 
@@ -14,15 +16,17 @@ See [preview.html](https://rawgit.com/icecream95/nerd-web-fonts/master/preview.h
 ### Usage example for [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo)
 
   - Options:
-      - font-family: `"DejaVu Sans Mono", monospace`
+      - font-family: `"DejaVu Sans Mono", "DejaVu Sans Mono Bold", monospace`
       - user-css: `TODO`
+
+Note that having both the normal and bold versions of a font is only required for DejaVu Sans Mono, and when it is added, Source Code Pro.
 
 ### Usage example for [Crosh Window](https://chrome.google.com/webstore/detail/crosh-window/nhbmpbdladcchdhkemlojfjdknjadhmh)
 
   - Start crosh window then press `Ctrl+Shift+J` and paste in the following:
 
 ```js
-term_.prefs_.set('font-family', '"DejaVu Sans Mono", monospace');
+term_.prefs_.set('font-family', '"DejaVu Sans Mono", "DejaVu Sans Mono Bold", monospace');
 term_.prefs_.set('user-css', 'TODO');
 ```
 
@@ -37,6 +41,8 @@ To add a new font, you can submit a GitHub pull request. Your PR should:
   - Include a new font file in [WOFF2
     format](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a).
   - Add your font to `PowerlineFonts.css`, `preview.html` and `README.md` (might use [Transfonter](http://transfonter.org/) to help with the CSS).
+
+The font should not be the Mono version and should be converted using [Monospacifier](https://github.com/cpitclaudel/monospacifier) of similar for PR's to the master branch, and should be the Mono version for the mono branch.
 
 ### Converting to WOFF2
 

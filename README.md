@@ -1,4 +1,4 @@
-0;256;0c# nerd-web-fonts
+# nerd-web-fonts
 
 [**Nerd** Web Fonts](https://github.com/ryanoasis/nerd-fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
 
@@ -12,6 +12,8 @@ There are multiple `font-family` to choose from (all Nerd-enabled):
     [Roboto Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/RobotoMono)
   * `Ubuntu Mono` -
     [Ubuntu Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono)
+  * `Source Code Pro` -
+    [Source Code Pro for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro/Regular)
 
 See [preview.html](https://rawgit.com/icecream95/nerd-web-fonts/master/preview.html) and [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 

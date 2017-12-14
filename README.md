@@ -8,6 +8,8 @@ There are multiple `font-family` to choose from (all Nerd-enabled):
     [DejaVu Sans Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono)
   * `Hack` -
     [Hack for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)
+  * `Inconsolata` -
+    [Inconsolata for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Inconsolata)
   * `Roboto Mono` -
     [Roboto Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/RobotoMono)
   * `Ubuntu Mono` -

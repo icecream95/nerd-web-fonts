@@ -6,10 +6,12 @@ There are multiple `font-family` to choose from (all Nerd-enabled):
 
   * `DejaVu Sans Mono, DejaVu Sans Mono Bold` -
     [DejaVu Sans Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono)
-  * `Ubuntu Mono` -
-    [Ubuntu Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono)
+  * `Hack` -
+    [Hack for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)
   * `Roboto Mono` -
     [Roboto Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/RobotoMono)
+  * `Ubuntu Mono` -
+    [Ubuntu Mono for Nerd](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono)
 
 See [preview.html](https://rawgit.com/icecream95/nerd-web-fonts/master/preview.html) and [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 

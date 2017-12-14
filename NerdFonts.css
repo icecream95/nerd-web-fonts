@@ -56,6 +56,12 @@
 }
 
 @font-face {
+    font-family: "Roboto Mono";
+    src: local("Roboto Mono Nerd enabled"),
+    url(fonts/RobotoMono.woff2) format("woff2");
+}
+
+@font-face {
     font-family: "Source Code Pro";
     src: local("Source Code Pro Nerd enabled"),
          local("Sauce Code Powerline"),
